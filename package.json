@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "jupyterlab_myextension",
+  "version": "0.0.1",
+  "description": "A JupyterLab extension.",
+  "author": "ibrahim azam",
+  "main": "lib/plugin.js",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "jupyterlab": {
+    "extension": true
+  },
+  "scripts": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "read-file": "^0.2.0"
+  },
+  "devDependencies": {}
+}
